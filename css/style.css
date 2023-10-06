@@ -198,7 +198,6 @@ button{
   .imgSection{
     min-width: 100%;
   }
-  .articleSection,
   .imgSection img{
     border-radius: 10px 10px 0 0;
   }
