@@ -28,7 +28,7 @@ body{
   display: flex;
   max-width: 100%;
   min-height: 100vh;
-  padding: 20px;
+  padding: 25px;
   background: var(--light-grayish-blue);
   font-size: 13px;
   font-family: var(--body-font);
@@ -189,14 +189,13 @@ button{
 
 @media screen and (max-width: 767px){
   .articleSection{
+    min-width: 100%;
     display: flex;
     padding-bottom: 18px;
     flex-direction: column;
   }
   .imgSection{
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 220px;
+    min-width: 100%;
   }
   .imgSection img{
     border-radius: 10px 10px 0 0;
