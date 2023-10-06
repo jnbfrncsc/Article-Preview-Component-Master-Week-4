@@ -28,7 +28,7 @@ body{
   display: flex;
   max-width: 100%;
   min-height: 100vh;
-  padding: 25px;
+  padding: 20px;
   background: var(--light-grayish-blue);
   font-size: 13px;
   font-family: var(--body-font);
@@ -135,7 +135,7 @@ button{
   display: none;
   position: absolute;
   right: -5.7em;
-  bottom: 6.1em;
+  bottom: 5.7em;
   padding: 1.2em 2.3em;
   background-color: var(--desaturated-dark-blue);
   flex-direction: row;
