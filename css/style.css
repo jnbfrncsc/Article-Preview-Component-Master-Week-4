@@ -67,6 +67,7 @@ button{
 
 .imgSection img{
   position: relative;
+  height: auto;
   min-width: 300px;
   margin-bottom: -4px;
   border-radius: 10px 0 0 10px;
@@ -197,6 +198,7 @@ button{
   .imgSection{
     min-width: 100%;
   }
+  .articleSection,
   .imgSection img{
     border-radius: 10px 10px 0 0;
   }
@@ -232,5 +234,15 @@ button{
   }
   .shareActive{
     display: flex;
+  }
+}
+
+@media screen and (max-width: 335px){
+  .articleSection{
+    min-width: 100%;
+    border-radius: 10px;
+  }
+  .imgSection img{
+    min-width: 100%;
   }
 }
